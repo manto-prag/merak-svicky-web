@@ -1,0 +1,1 @@
+ALTER TABLE public.scents ADD COLUMN IF NOT EXISTS recommended_color_slug text NOT NULL DEFAULT '';
